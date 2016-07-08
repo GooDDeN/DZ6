@@ -1,0 +1,470 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+    font-family: 'Helvetica Neue';
+    src: url(../fonts/helveticaneue-thin-webfont.eot);
+    src: url(../fonts/helveticaneue-thin-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/helveticaneue-thin-webfont.woff2) format('woff2'),
+         url(../fonts/helveticaneue-thin-webfont.woff) format('woff'),
+         url(../fonts/helveticaneue-thin-webfont.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	
+	margin: auto;
+	background: grey;
+}
+.wrapper{
+	margin: auto;
+	width: 1000px;
+	background: white;
+}
+
+.conteiner{
+	margin: 0 auto;
+	width: 908px;
+	background-color: white;
+	font-family: "Helvetica Neue", Arial;
+}
+.cleare{
+	clear: both;
+}
+
+.header{
+	position: relative;
+}
+
+.telefone{
+	width: 291px;
+    height: 22px;
+    position: relative;
+    margin: 20px 0px 10px 5px;
+    float: left;
+    
+}
+
+.avtoriz{
+	width: 495px;
+    height: 25px;
+    position: relative;
+    margin: 18px 0px 10px 15px;
+    float: left;
+    background-image: url(../img/avtoriz_gradient.png);
+    border-radius: 5px;
+    text-align: center;
+    line-height: 27px;
+    font-size: 12px;
+}
+.avtoriz img{
+	position: absolute;
+	left: 4px;
+	top: 3px;
+}
+
+.avtoriz a{
+	color: white;
+}
+input{
+	width: 112px;
+	text-indent: 10px;
+}
+
+.navigation{
+	width: 76px;
+	height: 21px;
+	position: relative;
+	margin: 18px 0px 10px 15px;
+	border: 1px solid black;
+	border-radius: 15px;
+	background-color: white;
+	text-align: center;
+	float: left;
+}
+
+.navigation img{
+	margin: 4px 2px 0px 3px;
+}
+
+.main_img img{
+	margin-left: -1px;
+}
+main{
+	background-color: white;
+	position: relative;
+}
+
+.menu{
+	height: 33px;
+	background-image: url(../img/menu_gradient.png);
+	margin-top: 4px;
+	/*float: left;*/
+	border-radius: 5px;
+}
+
+.menu ul{
+	float: left;
+	margin-left: 100px;	
+	margin-top: 4px;
+	margin-right: 25px;
+}
+
+.menu li{
+	float: left;
+	width: 115px;
+	text-align: center;
+	line-height: 25px;
+	text-decoration: none;
+	list-style-type: none;
+	border-radius: 40px;
+	margin-right: 5px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.menu li:hover{
+	background-color: #154b6d;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+
+.cash_box{
+	font-size: 12px;
+    line-height: 30px;
+	/*float: left;*/
+}
+.cash_box p{
+	display: inline;
+	color: white;
+}
+.cash_box span{
+	color: blue;
+}
+
+.cash_img{
+	position: absolute;
+	top: 6px;
+	right: 187px;
+}
+
+.find_po_avto{
+	width: 414px;
+	height: 133px;
+	float: left;
+	margin-left: 5px;
+	/*border-color: 1px solid black; ????????? */
+	background-color: green;
+	box-shadow: 3px 3px 4px -2px #000;
+	border-radius: 15px;
+	margin-top: 12px;
+}
+
+.find_tires{
+	width: 191px;
+	height: 133px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 15px;
+	/*border-color: 1px solid black; ????????? */
+	background-color: grey;
+	box-shadow: 3px 3px 4px -2px #000;
+	border-radius: 15px;
+	margin-top: 12px;
+}
+.find_disc{
+	width: 266px;
+	height: 133px;
+	float: left;
+	/*border-color: 1px solid black; ????????? */
+	background-color: yellow;
+	box-shadow: 3px 3px 4px -2px #000;
+	border-radius: 15px;
+	margin-top: 12px;
+}
+
+h2{
+	height: 30px;
+	line-height: 30px;
+	background-image: url(../img/background_aside_buttonH2.png.);
+	background-repeat: no-repeat;
+	text-indent: 25px;
+	font-size: 13px;
+}
+h3{
+	height: 30px;
+	line-height: 30px;
+	background-image: url(../img/background_aside_button.png);
+	background-repeat: no-repeat;
+	text-indent: 35px;
+	font-size: 14px;
+	margin-left: 5px;
+}
+.left{
+	float: left;
+	width: 21%;
+	margin-top: 15px;
+	/*background-color: yellow;*/
+
+}
+
+.left ul{
+	margin-top: 5px;
+}
+
+.left li{
+	margin-left: 55px;
+	text-decoration: none;
+	list-style-image: url(../img/background_aside_buttonSmall.png);
+	padding: 2px;
+}
+
+.main_product{
+	float: left;
+	width: 58%;
+	height: 627px;
+	margin-top: 15px;
+	background-image: url(../img/background_main_product1px.png);
+
+}
+.right{
+	float: left;
+	width: 21%;
+	margin-top: 15px;
+	/*background-color: green;*/
+}
+
+.right h3{
+	margin-left: 15px;
+}
+
+.right ul{
+	margin-top: 5px;
+}
+
+.right li{
+	list-style-type: none;
+}
+
+.right input{
+	width: 20px;
+	margin: 10px 12px 5px 20px;
+}
+
+.aside_rirht_button{
+	width: 80px;
+	height: 25px;
+	margin-left: 35px;
+	margin-top: 20px;
+	background-image: url(../img/avtoriz_gradient.png);
+	border-radius: 10px;
+	color: white;
+	font-size: 12px;
+}
+section{
+	width: 140px;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+	margin-left: 28px;
+	margin-bottom: 10px; 
+}
+section h4{
+	
+}
+.bren_logo{
+	margin: 0 auto;
+	width: 700px;
+	margin-top: 40px;
+	margin-bottom: 25px;
+}
+
+footer{
+	margin: 0 auto;
+	width: 908px;
+	height: 100px;
+	background-image: url(../img/background_footer1px.png);
+}
+
+.botom_menu ul{
+	padding-top: 10px;
+	margin-left: 290px;
+	
+}
+.botom_menu li{
+	float: left;
+	list-style-type: none;
+	text-decoration: none;
+	color: #bec6c9;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 13px;
+}
+
+.botom_menu li:hover{
+	color: #52abcb;
+}
+
+footer p{
+	margin-left: 370px; 
+	padding-top: 10px;
+	color: #7f4740;
+}
+/*ul{
+	display: inline-block;
+	height: 35px;
+	margin-left: 440px;	
+}
+
+li{
+	display: inline-block;
+	height: 35px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 35px;
+	color: #60b5ed;
+}
+li:hover{
+	background-color: #4eabda;
+	color: white;
+}
+
+.minhas{
+	display: inline-block;
+	position: relative;
+	width: 185px;
+	top: -35px;
+	right: -830px;
+	line-height: 35px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-left: 1px solid #4eabda;
+	text-indent: 30px;
+	text-align: right;
+}
+
+.ola{
+	display: inline-block;
+	position: relative;
+	top: -35px;
+	right: -830px;
+	width: 160px;
+	line-height: 35px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #4eabda;
+	
+}
+.flag{
+	position: relative;
+	top: -65px;
+	right: -845px;
+}
+span{
+	text-decoration: underline;
+}
+
+.conteiner{
+	width: 1215px;
+	height: 1028px;
+	margin: 0 auto;
+	background-image: url(background.png);
+	font-family: "Helvetica Neue";
+}
+
+nav{
+	width: 1215px;
+	height: 35px;
+	margin: margin: 0 auto;
+	background-color: #085495;
+}
+
+.top{
+	width: 560px;
+	height: 62px;
+	border-bottom: 2px solid #b9c5ad;
+	margin-bottom: 2px;
+	text-align: center;
+	color: white;
+}
+
+.FB_button{
+	height: 35px;
+	width: 280px;
+	border: 0px;
+	border-radius:5px;
+	background-image: url(FB-bottom.png);
+}
+h2{
+	padding-top: 20px;
+}
+.content{
+	width: 560px;
+	margin-left: 353px;
+	margin-top: 213px;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+}
+
+form{
+	margin-top: 35px;
+	margin-left: 140px;
+}
+
+.button{
+	width: 280px;
+	height: 35px;
+}
+.OU{
+	display: block;
+}
+.a{	
+	width: 280px;
+	height: 35px;
+	margin-bottom: 16px;
+}
+
+.b{
+	height: 35px;
+	width: 280px;
+}
+
+input{
+	text-indent: 15px;
+	width: 250px;
+	border: 0px;
+}
+input:focus {
+	border:#35a5e5 2px solid;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	background-color: #1b5288;
+}
+.checkbox{
+	width: 25px;
+}
+label{
+	color: white;
+} 
+.account{
+	width: 150px;
+	height: 35px;
+	margin-left: 70px;
+	border: 0px;
+	border-radius:5px;
+	color: white;
+	background-image: url(button.png);
+}
+p{
+	color: white;
+	text-align: center;
+}
+.text_bottom{
+	margin-left: -30px;
+	margin-right: 120px;
+	margin-bottom: 20px;
+}*/
