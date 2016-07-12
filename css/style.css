@@ -67,11 +67,22 @@ body{
 }
 
 .avtoriz a{
-	color: white;
+	color: #bfbfbf;
+	margin-left: 2px;
 }
 input{
 	width: 112px;
 	text-indent: 10px;
+}
+
+button{
+	background-color: transparent;
+	color: white;
+	border-color: transparent;
+}
+
+span{
+	color: white;
 }
 
 .navigation{
@@ -79,11 +90,12 @@ input{
 	height: 21px;
 	position: relative;
 	margin: 18px 0px 10px 15px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	border-radius: 15px;
 	background-color: white;
 	text-align: center;
 	float: left;
+	box-shadow: 1px 3px 10px 1px #000;
 }
 
 .navigation img{
@@ -104,6 +116,7 @@ main{
 	margin-top: 4px;
 	/*float: left;*/
 	border-radius: 5px;
+
 }
 
 .menu ul{
@@ -130,7 +143,7 @@ main{
 }
 .menu a{
 	text-decoration: none;
-	color: white;
+	color: #9ca6aa;
 }
 
 .cash_box{
@@ -140,7 +153,7 @@ main{
 }
 .cash_box p{
 	display: inline;
-	color: white;
+	color: #9ca6aa;
 }
 .cash_box span{
 	color: blue;
@@ -156,35 +169,205 @@ main{
 	width: 414px;
 	height: 133px;
 	float: left;
+	position: relative;
 	margin-left: 5px;
 	/*border-color: 1px solid black; ????????? */
-	background-color: green;
-	box-shadow: 3px 3px 4px -2px #000;
+	/*background-color: green;*/
+	box-shadow: 1px 3px 10px 1px #000;
 	border-radius: 15px;
 	margin-top: 12px;
+}
+
+.find_po_avto_name{
+	color: #114165;
+	position: absolute;
+	top: -5px;
+	left: 120px;
+	font-size: 18px;
+}
+
+.find_po_avto span{
+	color: #77858b
+}
+
+.find_po_avto h5{
+	color: #114165;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+
+.find_po_avto p{
+	margin-top: 7px;
+	margin-left: 30px; 
+	font-size: 9px;
+}
+
+.find_po_avto_brand{
+	position: absolute;
+	top: 20px;
+	left: 100px;
+}
+
+.find_po_avto_model{
+	position: absolute;
+	top: 45px;
+	left: 100px;
+}
+
+.find_po_avto_year{
+	position: absolute;
+	top: 70px;
+	left: 100px;
+}
+
+.find_po_avto_complect{
+	position: absolute;
+	top: 90px;
+	left: 100px;
+}
+
+.find_po_avto_part2{
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+
+.find_po_avto_part2 h5{
+	width: 180px;
+	text-align: right;	
 }
 
 .find_tires{
 	width: 191px;
 	height: 133px;
 	float: left;
+	position: relative;
 	margin-right: 10px;
 	margin-left: 15px;
 	/*border-color: 1px solid black; ????????? */
-	background-color: grey;
-	box-shadow: 3px 3px 4px -2px #000;
+	/*background-color: grey;*/
+	box-shadow: 1px 3px 10px 1px #000;
 	border-radius: 15px;
 	margin-top: 12px;
+	
 }
+
+.find_tires h5{
+	color: #114165;
+	margin-top: 5px;
+	margin-left: 15px; 
+}
+
+.find_tires p{
+	margin-top: 8px;
+	margin-left: 10px; 
+	font-size: 13px;
+}
+.size{
+	position: absolute;
+	top: 23px;
+	right: 23px;
+}
+
+.R {
+	position: absolute;
+	top: 49px;
+	right: 79px;
+}
+
+.sizon{
+	position: absolute;
+	top: 75px;
+	right: 52px;
+}
+
+.sizon div{
+	height: 13px;
+}
+
+select{
+	font-size: 10px;
+}
+
+.find_tires input{
+	width: 20px;
+}
+
+.find_tires label{
+	font-size: 10px;
+	
+}
+.find_tires label{
+	vertical-align: top;
+}
+
+.search{
+	position: absolute;
+	top: 118px;
+	right: 10px;
+	font-size: 12px;
+	font-style: italic;
+}
+
 .find_disc{
 	width: 266px;
 	height: 133px;
 	float: left;
+	position: relative;
 	/*border-color: 1px solid black; ????????? */
-	background-color: yellow;
-	box-shadow: 3px 3px 4px -2px #000;
+	/*background-color: yellow;*/
+	box-shadow: 1px 3px 10px 1px #000;
 	border-radius: 15px;
 	margin-top: 12px;
+}
+
+.find_disc span{
+	color: #77858b
+}
+
+.find_disc h5{
+	color: #114165;
+	margin-top: 5px;
+	margin-left: 15px; 
+}
+
+.find_disc p{
+	margin-top: 5px;
+	margin-left: 30px; 
+	font-size: 9px;
+}
+
+.find_disc_r{
+	position: absolute;
+	top: 18px;
+	left: 110px;
+}
+
+.find_disc_holes{
+	position: absolute;
+	top: 45px;
+	left: 110px;	
+}
+
+.find_disc_diameter{
+	position: absolute;
+	top: 75px;
+	left: 110px;
+}
+
+.DCO{
+	position: absolute;
+	top: 5px;
+	right: 30px;
+	border-left: 1px solid grey; 
+}
+
+.DCO p{
+	margin-left: 15px;
+}
+
+.DCO select{
+	margin-left: 15px;
 }
 
 h2{
@@ -315,156 +498,3 @@ footer p{
 	padding-top: 10px;
 	color: #7f4740;
 }
-/*ul{
-	display: inline-block;
-	height: 35px;
-	margin-left: 440px;	
-}
-
-li{
-	display: inline-block;
-	height: 35px;
-	padding-left: 10px;
-	padding-right: 10px;
-	line-height: 35px;
-	color: #60b5ed;
-}
-li:hover{
-	background-color: #4eabda;
-	color: white;
-}
-
-.minhas{
-	display: inline-block;
-	position: relative;
-	width: 185px;
-	top: -35px;
-	right: -830px;
-	line-height: 35px;
-	padding-left: 5px;
-	padding-right: 5px;
-	border-left: 1px solid #4eabda;
-	text-indent: 30px;
-	text-align: right;
-}
-
-.ola{
-	display: inline-block;
-	position: relative;
-	top: -35px;
-	right: -830px;
-	width: 160px;
-	line-height: 35px;
-	padding-left: 5px;
-	padding-right: 5px;
-	background-color: #4eabda;
-	
-}
-.flag{
-	position: relative;
-	top: -65px;
-	right: -845px;
-}
-span{
-	text-decoration: underline;
-}
-
-.conteiner{
-	width: 1215px;
-	height: 1028px;
-	margin: 0 auto;
-	background-image: url(background.png);
-	font-family: "Helvetica Neue";
-}
-
-nav{
-	width: 1215px;
-	height: 35px;
-	margin: margin: 0 auto;
-	background-color: #085495;
-}
-
-.top{
-	width: 560px;
-	height: 62px;
-	border-bottom: 2px solid #b9c5ad;
-	margin-bottom: 2px;
-	text-align: center;
-	color: white;
-}
-
-.FB_button{
-	height: 35px;
-	width: 280px;
-	border: 0px;
-	border-radius:5px;
-	background-image: url(FB-bottom.png);
-}
-h2{
-	padding-top: 20px;
-}
-.content{
-	width: 560px;
-	margin-left: 353px;
-	margin-top: 213px;
-	background-color: rgba(0,0,0,0.6);
-	position: absolute;
-}
-
-form{
-	margin-top: 35px;
-	margin-left: 140px;
-}
-
-.button{
-	width: 280px;
-	height: 35px;
-}
-.OU{
-	display: block;
-}
-.a{	
-	width: 280px;
-	height: 35px;
-	margin-bottom: 16px;
-}
-
-.b{
-	height: 35px;
-	width: 280px;
-}
-
-input{
-	text-indent: 15px;
-	width: 250px;
-	border: 0px;
-}
-input:focus {
-	border:#35a5e5 2px solid;
-	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-	background-color: #1b5288;
-}
-.checkbox{
-	width: 25px;
-}
-label{
-	color: white;
-} 
-.account{
-	width: 150px;
-	height: 35px;
-	margin-left: 70px;
-	border: 0px;
-	border-radius:5px;
-	color: white;
-	background-image: url(button.png);
-}
-p{
-	color: white;
-	text-align: center;
-}
-.text_bottom{
-	margin-left: -30px;
-	margin-right: 120px;
-	margin-bottom: 20px;
-}*/
