@@ -14,10 +14,10 @@
 				</div>
 				<div class="avtoriz">
 					<div class="avtoriz_img"><img src="img/avtoriz_img.png"></div>
-					<form action="#">
+					<form action="#" method="post">
 						<input type="text" name="text" placeholder="логин" >
 						<input type="password" name="password" placeholder="пароль">
-						<button type="submit">вход</button> <span>|</span>
+						<button type="submit" form="#">вход</button> <span>|</span>
 						<button>регистрация</button>
 						<a href="#">забыли пароль?</a>
 					</form>
@@ -47,13 +47,167 @@
 					</div>
 				</nav>
 				<div class="find_po_avto">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis dolorem 
+					<div class="find_po_avto_name">
+						<h5>Поиск по автомобилю:</h5>
+					</div>
+					<h5>Диски:</h5>
+						<p>Марка <span>авто</span> :</p>
+						<div class="find_po_avto_brand">
+							<select>
+								<option>Subaru</option>
+								<option>Honda</option>
+								<option>Mercedes</option>
+							</select>
+						</div>
+						<p>Модель <br><span>автомобиля</span> :</p>
+						<div class="find_po_avto_model">
+							<select>
+								<option>Subaru Impreza</option>
+								<option>Honda Accord</option>
+								<option>Mercedes E240</option>
+							</select>
+						</div>
+						<p>Год выпуска <br><span>автомобиля</span> :</p>
+						<div class="find_po_avto_year">
+							<select>
+								<option>2000</option>
+								<option>2001</option>
+								<option>2002</option>
+							</select>
+						</div>
+						<p>Комплектация :</p>
+						<div class="find_po_avto_complect">
+							<select>
+								<option>full</option>
+								<option>middle</option>
+								<option>empty</option>
+							</select>
+						</div>
+					<div class="find_po_avto_part2">
+						<h5>Шины:</h5>
+						<p>Марка <span>авто</span> :</p>
+						<div class="find_po_avto_brand">
+							<select>
+								<option>Subaru</option>
+								<option>Honda</option>
+								<option>Mercedes</option>
+							</select>
+						</div>
+						<p>Модель <br><span>автомобиля</span> :</p>
+						<div class="find_po_avto_model">
+							<select>
+								<option>Subaru Impreza</option>
+								<option>Honda Accord</option>
+								<option>Mercedes E240</option>
+							</select>
+						</div>
+						<p>Год выпуска <br><span>автомобиля</span> :</p>
+						<div class="find_po_avto_year">
+							<select>
+								<option>2000</option>
+								<option>2001</option>
+								<option>2002</option>
+							</select>
+						</div>
+						<p>Комплектация :</p>
+						<div class="find_po_avto_complect">
+							<select>
+								<option>full</option>
+								<option>middle</option>
+								<option>empty</option>
+							</select>
+						</div>
+					</div>
+					<div class="search">
+							<a href="#">ПОИСК...</a>
+						</div>	
 				</div>
 				<div class="find_tires">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis dolorem 
+						<h5>ПОИСК ШИН</h5>
+						<p>Размер:</p>
+						<div class="size">
+							<select>
+								<option>145</option>
+								<option>155</option>
+								<option>165</option>
+							</select>
+						    / 
+							<select>
+								<option>45</option>
+								<option>55</option>
+								<option>65</option>
+							</select>
+						</div>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; R:</p>
+							<div class="R">
+							<select>
+								<option>12</option>
+								<option>13</option>
+								<option>14</option>
+							</select>
+						</div>
+						<p>&nbsp;&nbsp;Сезон:</p>
+						<div class="sizon">
+							<div>
+								<input type="checkbox" name="" id="summer">
+								<label for="summer">лето</label>
+							</div>
+							<div>
+								<input type="checkbox" name="" id="winter">
+								<label for="winter">зима</label>
+							</div>
+							<div>
+								<input type="checkbox" name="" id="all_sizon">
+								<label for="all_sizon">всесезон</label>
+							</div>
+						</div>
+						<div class="search">
+							<a href="#">ПОИСК...</a>
+						</div>
 				</div>
 				<div class="find_disc">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis dolorem 
+					<h5>ПОИСК ДИСКОВ</h5>
+						<p>Диаметр <span>диска</span>:</p>
+						<div class="find_disc_r">
+							<select>
+								<option>14</option>
+								<option>15</option>
+								<option>16</option>
+							</select>
+						</div> 
+						<p>Количество <br><span>крепежных <br>отверстий</span>:</p>
+						<div class="find_disc_holes">
+							<select>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+						</div> 
+						<p>Диаметр<br><span>расположения<br>крепёжных<br>отверстий</span>:</p>
+						<div class="find_disc_diameter">
+							<select>
+								<option>12</option>
+								<option>13</option>
+								<option>14</option>
+							</select>
+						</div>
+						<div class="DCO">
+							<p>ДЦО <br><span>(диаметр<br>центрального<br>отверствия)</span>:</p>
+							<select>
+								<option>12</option>
+								<option>13</option>
+								<option>14</option>
+							</select>
+							<p>ЕТ<br><span>(вылет диска)</span>:</p>
+							<select>
+								<option>12</option>
+								<option>13</option>
+								<option>14</option>
+							</select>
+						</div>
+						<div class="search">
+							<a href="#">ПОИСК...</a>
+						</div> 
 				</div>
 				<div class="cleare"></div>
 				
